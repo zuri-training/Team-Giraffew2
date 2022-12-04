@@ -69,7 +69,7 @@ The attached links are for better understanding.
 
 7 [Abisola Ajebola](https://github.com/nigelito-a)
 
-8 [Oluwapelumi Olaiiga ](https://github.com/OluwapelumiOlajiga)
+8 [Oluwapelumi Olajiga ](https://github.com/OluwapelumiOlajiga)
 
 9 [Will Simon ](https://github.com/Shimnom1)
 
