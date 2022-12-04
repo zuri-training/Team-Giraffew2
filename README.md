@@ -22,8 +22,6 @@ Design
 
 * Figma
 
-* FigJam
-
 Frontend
 
 * HTML
@@ -35,7 +33,6 @@ Frontend
 Backend
 
 * PHP
-
 
 
 
@@ -67,13 +64,15 @@ The attached links are for better understanding.
 
 6 [Owoade Yetunde](https://github.com/Y-ade)
 
-7 [Abisola Ajebola](https://github.com/nigelito-a)
+7 [Abisola Ojebola](https://github.com/nigelito-a)
 
 8 [Oluwapelumi Olajiga ](https://github.com/OluwapelumiOlajiga)
 
 9 [Will Simon ](https://github.com/Shimnom1)
 
 10 [ Fiyinfoluwa Agbetile](https://github.com/Agbetilefiyin)
+
+11 [Victor Winner Nwankwo](https://github.com/victor-winner)
 
 
 
