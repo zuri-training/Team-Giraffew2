@@ -43,11 +43,9 @@ The attached links are for better understanding.
 
 [Project documentation](https://docs.google.com/document/d/12BSiM8h3QpOXKYy_hLVxyWAap2OBQMh8mFx8HcrEYlo/edit)
 
-[Figma](https://dbdiagram.io/d/638bacfcbae3ed7c45448672)
+[Figma](https://www.figma.com/file/do7Ne8ggW8jVmIVHpbhwK5/DESIGN-SKETCH?node-id=81%3A34&t=Hxm7DbuKTa6yATo8-1)
 
 [Database schema](https://www.figma.com/file/azGyCYE2udRMgLFG0PX5UO/Cardex-Mood-Board)
-
-[Figjam](https://linktofigjam)
 
 
 ## Team Members
@@ -75,6 +73,9 @@ The attached links are for better understanding.
 11 [Victor Winner Nwankwo](https://github.com/victor-winner)
 
 12 [Minohasina Andriantahina](https://github.com/Minohasina)
+
+13 [Oreoluwa Babatola](https://github.com/Oreoluwa-B)
+14 [](https://github.com/USolace)
 
 
 
