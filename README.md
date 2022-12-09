@@ -1,45 +1,38 @@
-
-
- ![cardex jpg](https://user-images.githubusercontent.com/109958285/205490099-0a7fbfc5-f241-4586-9f39-59d4748dc06b.jpg)
-
-
-            
+![cardex jpg](/Team-Giraffew2/img/)
 
 ## Introduction
-Cardex is a credit card design library, a project carried 
+
+Cardex is a credit card design library, a project carried
 out by a team of students from I4G x Zuri Inc Corhort2.
 
 ## What Are We Building?
 
-We are building a webapp based library that has different types of credit card 
- designs. 
- A credit card library where authenticated users can interact and download credit card designs,users can also interact by commenting,
- like and share their favorite design on social media.
+We are building a webapp based library that has different types of credit card
+designs.
+A credit card library where authenticated users can interact and download credit card designs,users can also interact by commenting,
+like and share their favorite design on social media.
 
 ## Tools Used
 
 Design
 
-* Figma
+- Figma
 
 Frontend
 
-* HTML
+- HTML
 
-* CSS
+- CSS
 
-* Javascript
+- Javascript
 
 Backend
 
-* PHP
-
-
+- PHP
 
 ## Appendix
 
 The attached links are for better understanding.
-
 
 [Project documentation](https://docs.google.com/document/d/12BSiM8h3QpOXKYy_hLVxyWAap2OBQMh8mFx8HcrEYlo/edit)
 
@@ -47,10 +40,9 @@ The attached links are for better understanding.
 
 [Database schema](https://www.figma.com/file/azGyCYE2udRMgLFG0PX5UO/Cardex-Mood-Board)
 
-
 ## Team Members
 
-1 [Akinpelu Ifedolapo]( https://github.com/Ifedolap)
+1 [Akinpelu Ifedolapo](https://github.com/Ifedolap)
 
 2 [Wonah Solomon](https://github.com/macrokins)
 
@@ -77,12 +69,3 @@ The attached links are for better understanding.
 13 [Oreoluwa Babatola](https://github.com/Oreoluwa-B)
 
 14 [UGBOAJAH SOLACE](https://github.com/USolace)
-
-
-
-
-
-
-
-
-
