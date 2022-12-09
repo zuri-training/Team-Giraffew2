@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    overflow-x: hidden;
+  }
+header{
+    background-color: #150f0d;
+}
+.navigate{
+    height: 10vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 12%;
+}
+.logo{
+    color: rgb(255,215,0);
+    font-size: 4.8rem;
+    font-weight: 500;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(255,215,0);
+    text-decoration: none;
+}
+nav ul li a img{
+    filter: opacity(rgb(255,215,0));
+    opacity: rgb(255,215,0); 
+}
+nav ul li a :hover{
+    color: #ea1538;
+    transition: .3s;
+}
+/* main */
+.content{
+    text-align: center;
+    padding-top: 15%;
+}
+main h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+main p{
+    font-size: 150%;
+    font-weight: none;
+}
+main button{
+    margin-top: 30px;
+    width: 105px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0;
+    /* border: none; */
+}
+.btn-1{
+    margin-right: 45px;
+    background-color: azure;
+    border-color: black;
+}
+.boy :hover{
+    background-color: rgb(199, 238, 27);
+    color: red;
+    border: none;
+}
+.btn{
+    background-color: rgb(199, 238, 27);
+    color: red;
+    border: none;
+}
+.girl :hover{
+    background-color: azure;
+    border-color: black;
+}
