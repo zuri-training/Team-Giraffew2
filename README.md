@@ -1,4 +1,4 @@
-![cardex jpg](/Team-Giraffew2/img/)
+![cardex jpg](https://user-images.githubusercontent.com/109958285/206217528-e5137d65-1120-41b2-9b61-432d5a19f49b.jpeg)
 
 ## Introduction
 
