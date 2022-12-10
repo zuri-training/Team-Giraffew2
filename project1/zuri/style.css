@@ -9,6 +9,10 @@
 body {
   height: 100vh;
 }
+@font-face {
+  font-family: montra;
+  src: url("montra.regular.ttf");
+}
 
 .container {
   display: grid;
@@ -27,7 +31,8 @@ header {
 
 h1 {
   color: goldenrod;
-  font-size: 35px;
+  font-family: montra;
+  font-size: 10px;
   margin-left: 50px;
   /* margin-right: 1000px; */
   /* margin-top: 10px; */
