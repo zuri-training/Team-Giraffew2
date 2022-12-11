@@ -7,11 +7,6 @@
     <title>login/signup </title>
     <link rel="stylesheet" href="css/login.css">
 </head>
-
-<img class="flep" src="img/flep.png" alt="">
-<img class="ball1" src="img/Group11.png" alt="">
-<img class="ball2" src="img/Group22.png" alt="">
-<img class="ball3" src="img/Group33.png" alt="">
 <div class="container">
         <form class="form" id="createAccount" method="POST" action="action.php">
             <h1 class="form_title2">Create an Account with Cardex</h1>
