@@ -37,6 +37,9 @@
 .logout-link{
     padding-top: 11rem;
     padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
 }
 
 .nav-page{
@@ -119,6 +122,49 @@ a{
    height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   border-radius: 5px;
+  gap: .5rem;
+  padding-left: 6px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pro-img{
+    width: 52px;
+    height: 52px;
+   
+}
+.noti-img{
+    width: 20px;
+    padding-right: 1rem;
+
+}
+
+.saved-icon, .heart-icon, .downloads-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 6px;
+}
+
+.search-icon{
+    position: absolute;
+   left: 70%;
+   bottom: 76%;
+}
+
+.filter-icon{
+    display: flex;
+    flex-direction: column;
+   padding-top: 1rem;
+   align-items: center;
+}
+
+.filter-icon p{
+    color: #D38F22;
 }
