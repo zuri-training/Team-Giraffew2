@@ -1,8 +1,5 @@
 body {
-  --color-primary: #b6f063;
-  --color-primary-dark: #8ace6c;
-  --color-secondary: #d9b216;
-  --color-error: #cc3333;
+   --color-error: #cc3333;
   --color-success: #4bb544;
   --border-radius: 2px;
 
@@ -30,21 +27,7 @@ body {
   }
 }
 
-.ball1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.ball2 {
-  position: absolute;
-  top: 100px;
-  right: 0px;
-}
-.ball3 {
-  position: absolute;
-  top: 200px;
-  right: 50px;
-}
+
 .container {
   width: 700px;
   max-width: 700px;
@@ -71,17 +54,6 @@ body {
 
 .form > *:last-child {
   margin-bottom: 0;
-}
-.form_title2 {
-  margin-top: 0;
-  font-size: larger;
-  color: #cdb142;
-}
-.form_title,
-.form_title2 {
-  margin-bottom: 1rem;
-  text-align: center;
-  color: #d9b216;
 }
 
 .form_message {
@@ -130,22 +102,17 @@ body {
 }
 
 .form_button {
-  margin: 0 auto;
-  display: block;
-  width: 50%;
+  
+  width: 100%;
   padding: 0.5rem 0.5rem;
   font-weight: bold;
   font-size: 0.8rem;
-  color: #140f0f;
+  color: #f7f2f2;
   border: none;
-  border-radius: var(--border-radius);
+  border-radius: 5px;
   outline: none;
   cursor: pointer;
-  background: var(--color-primary);
-}
-
-.form_button:hover {
-  background: var(--color-primary-dark);
+  background:linear-gradient(106.2deg, rgb(0, 186, 217) -4.3%, rgb(121, 134, 204) 14.1%, rgb(150, 117, 206) 34.7%, rgb(186, 105, 200) 53%, rgb(240, 71, 112) 74.7%, rgb(239, 162, 92) 95.6%);
 }
 
 .form_button:active {
@@ -153,17 +120,14 @@ body {
 }
 
 .form_button2 {
-  width: 50%;
-  margin: 0 auto;
-  display: block;
+  width: 100%;
   padding: 0.5rem 0.5rem;
   font-weight: bold;
   font-size: 0.8rem;
-  color: #131310;
-  outline: invert;
-  outline-color: #d9b216;
+  color: #7c96b8;
+  border-radius: 5px;
   cursor: pointer;
-  background: #ffffff;
+  background: #151515;
 }
 
 .form_text {
