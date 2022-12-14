@@ -48,6 +48,12 @@ body {
   height: 5.2rem;
 }
 
+.icon{
+  width: 24px;
+  height: 20px;
+  background: #FFFFFF;
+}
+
 .name {
   font-size: 2.4rem;
   font-weight: 400;
@@ -96,11 +102,11 @@ body {
   border-radius: 8px;
 }
 
-.icon {
+/* .icon {
   width: 1.8rem;
   height: 2rem;
   margin-right: 1rem;
-}
+} */
 .main {
   height: 100vh;
   background-color: #fff;
@@ -127,19 +133,26 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  gap: 10rem;
-  padding: 1.2rem 1.2rem 4.4rem;
-  background-color: #f4fce1;
-  border: 1px solid #8c8988;
-  border-radius: 8px;
-  height: 28rem;
+  padding: 12px;
+  gap: 12px;
+  width: 326px;
+  height: 354.76px;
+  background: #222531;
+  border-radius: 8px; 
+  color: #FFFFFF; 
 }
-
+.card2{
+  width: 302px;
+height: 191.76px;
+}
 .gallery-item {
-  width: 32rem;
-  height: 12rem;
+  /* width: 32rem;
+  height: 12rem; */
+  width: 302px;
+  height: 191.76px;
+  background: url(Design.png);
 }
 
 .gallery-item img {
@@ -151,6 +164,25 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 7rem;
+  display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+padding: 12px 8px 12px 12px;
+gap: 12px;
+width: 322px;
+height: 354.76px;
+background: #222531;
+border-radius: 8px;
+}
+
+.compress{
+  width: 195px;
+  height: 15px;font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;color: #FFFFFF;
 }
 
 @media (max-width: 84em) {
