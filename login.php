@@ -21,6 +21,9 @@
 			<?php if(isset($_GET['regsuc']) )
                 echo "<p class='alert alert-success text-center' align='center' style='color:green'>Registration Successful<br/>Please log in with your new username and password</p>";
             ?>
+			<?php if(isset($_GET['acc']) )
+                 echo "<p class='alert alert-danger text-center' align='center' style='color:red'>Please login/register to access this page</p>";
+            ?>
             <p>Username</p>
             <div class="form_message form_message--error"></div>
             <div class="form_input-group">
