@@ -34,10 +34,10 @@ if(isset($_SESSION['email'])){
             ><img src='img/Vector0.png' class='icon' alt='' />Saved</a
           >
 
-          <a href='#' class='links active'
+          <a href='#' class='links'
             ><img src='img/Vector11.png' class='icon' alt='' />Favorite</a
           >
-		<a href="library.php" class="links"
+		<a href="library.php" class="links active"
             ><img
               src="img/Vector11.png"
               class="icon"
