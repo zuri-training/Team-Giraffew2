@@ -37,11 +37,13 @@ if(isset($_SESSION['email'])){
           <a href='#' class='links active'
             ><img src='img/Vector11.png' class='icon' alt='' />Favorite</a
           >
-			<form action='action.php' method='POST' class='form' style='text-align: center; margin-top: 5%'>
-        <button class='btn btn-primary' name='all' style='background-color: transparent; border: none; color: white;'>
-        Library
-       </button>
-     </form>
+		<a href="library.php" class="links"
+            ><img
+              src="img/Vector11.png"
+              class="icon"
+              alt=""
+            />Library</a
+          >
          <form action='action.php' method='POST'>
         <button type='submit' name='logout' style='background-color: transparent; border: none; color: white;'><img
               src='img/Vector111.png'
