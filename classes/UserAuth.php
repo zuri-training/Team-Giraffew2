@@ -163,7 +163,7 @@ class UserAuth extends Dbh{
               <figure class='gallery-item'>
                 <img src='./uploads/<?php echo $data['pngfilename'];?>' alt='' />
               </figure>
-              <a href="./uploads/<?php echo $data['file_name'];?>"><img src='img/Group2.png' alt='' /></a>
+              <p><a href="uploads/<?php echo $data['file_name'];?>"><img src='img/Group2.png' alt='' /></a> | <img src="img/like.png">| <img src="img/dislike.png">| <a href="comment.php?id=<?php echo $data['file_id'];?>"><img src="img/comment.png"></a></p>
               <p><?php echo $data['name'];?></p>
 			  </div>
 <?php
