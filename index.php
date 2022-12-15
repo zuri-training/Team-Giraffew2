@@ -20,8 +20,8 @@
           <nav>
             <ul class="nav-bar">
               <li><a class="nav-link active" href="#home">Home</a></li>
-              <li><a class="nav-link" href="#">Library</a></li>
-              <li><a class="nav-link" href="#">About us</a></li>
+              <li><a class="nav-link" href="login.php">Library</a></li>
+              <li><a class="nav-link" href="login.php">About us</a></li>
               <li><a class="nav-link" href="#">Contact Us</a></li>
   
             </ul>
