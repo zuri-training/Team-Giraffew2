@@ -69,6 +69,7 @@ body {
 
 .aside {
   background-color: #222531;
+  height: 100vh;
 }
 
 .navs {
@@ -110,6 +111,7 @@ body {
 }
 .main {
   background-color: #181a22;
+  height: 100vh;
 }
 
 .container {
@@ -124,47 +126,60 @@ body {
   -webkit-background-clip: text;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 2rem;
-  column-gap: 3rem;
-  row-gap: 2rem;
+.container {
+  margin: 3rem 4rem;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10rem;
-  padding: 1.2rem 1.2rem 4.4rem;
-  background-color: #222531;
-  border: 1px solid #8c8988;
-  border-radius: 8px;
-  height: 32rem;
-}
-
-.gallery-item {
-  width: 32rem;
-  height: 12rem;
-  margin-bottom: 5rem;
-}
-
-.gallery-item img {
-  width: 100%;
-}
-
-.card {
+.profile5 {
+  width: 20rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 4rem;
+  justify-content: center;
 }
 
-.card p {
-  color: #fff;
-  font-size: 1.6rem;
+.profile5 h3 {
+  color: #ffffff;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: block;
+}
+
+.profil {
+  width: 90%;
+}
+
+.relative {
+  margin-bottom: 2rem;
+}
+
+.cta-form label {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin-bottom: 2.2rem;
+  color: #ffffff;
+  text-align: right;
+}
+
+.cta-form input,
+.cta-form select {
+  margin: 0 10rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: 1px solid #4698b3;
+  background-color: transparent;
+  border-radius: 9px;
+}
+
+.btn--form {
+  background-color: #4698b3;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
 }
 
 @media (max-width: 84em) {

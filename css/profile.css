@@ -116,106 +116,60 @@ body {
   margin: 3rem 4rem;
 }
 
-.container h1 {
-  font-size: 3.2rem;
-  font-weight: 600;
-  background: linear-gradient(91.26deg, #70a2ff 0%, #54f0d1 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 2rem;
-  column-gap: 3rem;
-  row-gap: 2rem;
-}
-
-.card {
+.profile5 {
+  width: 20rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 10rem;
-  padding: 1.2rem 1.2rem 4.4rem;
+  justify-content: center;
+}
+
+.profile5 h3 {
+  color: #ffffff;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: block;
+}
+
+.profil {
+  width: 90%;
+}
+
+.relative {
+  margin-bottom: 2rem;
+}
+
+.cta-form label {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin-bottom: 2.2rem;
+  color: #ffffff;
+  text-align: right;
+}
+
+.cta-form input,
+.cta-form select {
+  margin: 0 10rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: 1px solid #4698b3;
+  background-color: transparent;
+  border-radius: 9px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box2 {
   background-color: #222531;
-  border: 1px solid #8c8988;
-  border-radius: 8px;
-  height: 32rem;
-}
-
-.gallery-item {
-  width: 32rem;
-  height: 12rem;
-  margin-bottom: 5rem;
-}
-
-.gallery-item img {
-  width: 100%;
-}
-
-.card {
+  width: 20rem;
+  height: 15rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 4rem;
-}
-
-.card p {
-  color: #fff;
-  font-size: 1.6rem;
-}
-
-@media (max-width: 84em) {
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 56em) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 48em) {
-  .wrapper {
-    grid-template-columns: 32% 68%;
-  }
-
-  .card {
-    padding: 0rem;
-    height: 26rem;
-  }
-
-  .gallery-item {
-    width: 22rem;
-    height: 12rem;
-  }
-
-  .name {
-    display: none;
-  }
-
-  .gallery-item img {
-    width: 100%;
-  }
-
-  .img-bell {
-    margin-right: 0.5rem;
-  }
-
-  .navs {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-    padding: 0rem;
-    margin-bottom: 7rem;
-  }
-
-  .gallery {
-    margin-left: -3rem;
-  }
+  justify-content: center;
 }

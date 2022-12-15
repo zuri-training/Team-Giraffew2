@@ -15,33 +15,30 @@
       <header>
         <div class="main-header">
           <a class="logo" href="#home">
-            <h1>Cardex</h1>
+            <h1 class="logo"><a href="index.php">Cardex</a></h1>
           </a>
           <nav>
             <ul class="nav-bar">
               <li><a class="nav-link active" href="#home">Home</a></li>
-              <li><a class="nav-link" href="#">Library</a></li>
+              <li><a class="nav-link" href="library.php">Library</a></li>
               <li><a class="nav-link" href="#">About us</a></li>
               <li><a class="nav-link" href="#">Contact Us</a></li>
-  
             </ul>
-  
           </nav>
           <div class="account">
             <ul>
-              <li><a class="nav-link" href="login.php">Login</a></li>
-              </li>
+              <li><a id="login" class="nav-link" href="login.php">Login</a></li>
               <li class="stroke">|</li>
               <li><a id="su" class="nav-link" href="signup.php">Sign Up</a></li>
-              </li>
             </ul>
           </div>
+          <div class="bg-img">
+            <img src="images/bg-image2.png" alt="">
+          </div>
         </div>
-        <div class="bg-img">
-          <img src="images/bg-image.png" alt="">
-        </div>
+        
         <div class="caption">
-          <p>Millions of choices <br> perfect for you</p>
+          <p><span>Millions of choices</span><br> perfect for you</p>
           <div class="search-bar">
             <i id="i-search" class="ri-search-line"></i>
             <p>Search products</p>
@@ -74,7 +71,9 @@
               <h5>Your credit card design
                 can be EPIC.</h5>
               <p>Explore our curated lists of products and stores for more inspo. Find something to love in Cardex.</p>
-              <button class="su-btn">Sing Up</button>
+              <button class="su-btn">
+                <a href="signup.html">Sing Up</a>
+              </button>
               <button class="download-btn">Download App</button>
             </div>
   
