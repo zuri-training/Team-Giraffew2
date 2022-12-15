@@ -22,6 +22,11 @@ if(isset($_SESSION['email'])){
   <body>
     <header class='header'>
 		<h1 class='logo'><a href='index.php'>Cardex</a></h1>
+		<div class="profile">
+        <img src="img/Component2.png" class="img img-bell" alt="" />
+        <a href="profile.php"><p class="name"><?php echo "Welcome " . $_SESSION['fullname']; ?></p></a>
+        <img src="img/Vector.png" class="img img-icon" alt="" />
+      </div>
     </header>
     <div class='wrapper'>
       <aside class='aside'>
